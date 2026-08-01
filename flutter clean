@@ -1,0 +1,5 @@
+flutter clean
+flutter pub get
+git add .
+git commit -m "Remove old cache and fix android v2 embedding"
+git push origin main
