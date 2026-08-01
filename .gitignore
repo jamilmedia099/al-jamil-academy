@@ -31,9 +31,7 @@ build/
 .gradle/
 android/.gradle/
 android/local.properties
-
-# Keep Gradle wrapper files
-# (Removed gradlew ignore because CI needs it)
+# Note: gradlew and wrapper jars are NOT ignored here so CI/GitHub Actions can build properly!
 
 # Keystore (security)
 *.jks
